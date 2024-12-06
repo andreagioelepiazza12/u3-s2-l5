@@ -1,0 +1,22 @@
+[
+    { "id": 1, "citta": "L'Aquila" },
+    { "id": 2, "citta": "Potenza" },
+    { "id": 3, "citta": "Catanzaro" },
+    { "id": 4, "citta": "Napoli" },
+    { "id": 5, "citta": "Bologna" },
+    { "id": 6, "citta": "Trieste" },
+    { "id": 7, "citta": "Roma" },
+    { "id": 8, "citta": "Genova" },
+    { "id": 9, "citta": "Milano" },
+    { "id": 10, "citta": "Ancona" },
+    { "id": 11, "citta": "Campobasso" },
+    { "id": 12, "citta": "Torino" },
+    { "id": 13, "citta": "Bari" },
+    { "id": 14, "citta": "Cagliari" },
+    { "id": 15, "citta": "Palermo" },
+    { "id": 16, "citta": "Firenze" },
+    { "id": 17, "citta": "Trento" },
+    { "id": 18, "citta": "Perugia" },
+    { "id": 19, "citta": "Aosta" },
+    { "id": 20, "citta": "Venezia" }
+  ]

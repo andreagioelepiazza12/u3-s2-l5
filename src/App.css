@@ -1,0 +1,84 @@
+body {
+    background-image: url('https://img.freepik.com/vettori-gratuito/sfondo-blu-luce-del-giorno-nuvoloso-per-la-progettazione-del-tempo_33099-512.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 100vh;
+    background-attachment: fixed;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  }
+
+  .main-content {
+    margin-top: 100px; 
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+
+  
+.weather-card {
+  border-radius: 15px; 
+  overflow: hidden; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  background-color: #fff; 
+}
+
+
+.weather-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.weather-card-img {
+  object-fit: cover; 
+  height: 200px; 
+  border-bottom: 2px solid #eee; 
+}
+
+
+.weather-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+
+.weather-card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.weather-card-temp {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ff6f61; /* Colore caldo per la temperatura */
+  margin-top: 0.5rem;
+}

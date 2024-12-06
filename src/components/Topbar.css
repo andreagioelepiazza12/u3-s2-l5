@@ -1,0 +1,57 @@
+.navbar-custom {
+    background: linear-gradient(135deg, #1f1f1f, #343a40);
+    border-bottom: 2px solid #555; 
+  }
+  
+  /* Styling for navbar brand */
+  .navbar-brand-custom {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa !important; 
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand-custom:hover {
+    color: #ff6f61 !important; 
+  }
+  
+  /* Styling for nav links */
+  .nav-link-custom {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #f8f9fa !important;
+    padding: 0.75rem 1.5rem; 
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-link-custom:hover {
+    color: #343a40 !important; 
+    background-color: #f8f9fa !important; 
+    border-radius: 5px;
+  }
+  
+  
+  .navbar-custom .navbar-toggler-icon {
+    background-color: #ff6f61; 
+  }
+  
+ 
+  .navbar-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-custom {
+      background: linear-gradient(135deg, #343a40, #1f1f1f);
+    }
+  
+    .navbar-brand-custom {
+      font-size: 1.2rem; 
+    }
+  
+    .nav-link-custom {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }
